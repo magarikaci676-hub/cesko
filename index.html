@@ -1,0 +1,288 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ამომრჩეველთა სიის გადამოწმება</title>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/site.css">
+    <link rel="stylesheet" href="./styles/Voters.styles.css">
+<script src="./scripts/main.js.download"></script><style>.ismanga{font-family:"Comic Neue"}.ismanga *,.ismanga *::before,.ismanga *::after{box-sizing:border-box}.ismanga ul[class],.ismanga ol[class]{padding:0}.ismanga body,.ismanga h1,.ismanga h2,.ismanga h3,.ismanga h4,.ismanga p,.ismanga ul[class],.ismanga ol[class],.ismanga li,.ismanga figure,.ismanga figcaption,.ismanga blockquote,.ismanga dl,.ismanga dd{margin:0}.ismanga body{line-height:1.5;min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}.ismanga ul[class],.ismanga ol[class]{list-style:none}.ismanga a:not([class]){text-decoration-skip-ink:auto}.ismanga img{display:block;max-width:100%}.ismanga input,.ismanga button,.ismanga textarea,.ismanga select{font:inherit}@media(prefers-reduced-motion: reduce){.ismanga *{animation-duration:.01ms !important;animation-iteration-count:1 !important;scroll-behavior:auto !important;transition-duration:.01ms !important}}.ismanga .ismanga-select__option{cursor:pointer}.ismanga .ismanga-select__control{cursor:pointer}</style><style>.ismanga{font-family:"Comic Neue"}.ismanga *,.ismanga *::before,.ismanga *::after{box-sizing:border-box}.ismanga ul[class],.ismanga ol[class]{padding:0}.ismanga body,.ismanga h1,.ismanga h2,.ismanga h3,.ismanga h4,.ismanga p,.ismanga ul[class],.ismanga ol[class],.ismanga li,.ismanga figure,.ismanga figcaption,.ismanga blockquote,.ismanga dl,.ismanga dd{margin:0}.ismanga body{line-height:1.5;min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}.ismanga ul[class],.ismanga ol[class]{list-style:none}.ismanga a:not([class]){text-decoration-skip-ink:auto}.ismanga img{display:block;max-width:100%}.ismanga input,.ismanga button,.ismanga textarea,.ismanga select{font:inherit}@media(prefers-reduced-motion: reduce){.ismanga *{animation-duration:.01ms !important;animation-iteration-count:1 !important;scroll-behavior:auto !important;transition-duration:.01ms !important}}.ismanga .ismanga-spinner{align-items:center;display:flex;flex-direction:column;gap:16px;position:absolute;background-color:rgba(0,0,0,.5);border-radius:4px;padding:16px}.ismanga .ismanga-spinner__inner{animation:spin 2s linear infinite;border-color:#fff;border-radius:50%;border-style:solid;border-top-color:#b4183d;margin-top:4px}.ismanga .ismanga-spinner__inner-text{color:#fff;font-size:16px;text-align:center;word-break:break-word;direction:ltr;font-weight:600;line-height:1;margin:0}.ismanga .ismanga-spinner__inner-text a{color:#b4183d;font-weight:bold;text-decoration:underline dotted #b4183d}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}</style><style>.ismanga{font-family:"Comic Neue"}.ismanga *,.ismanga *::before,.ismanga *::after{box-sizing:border-box}.ismanga ul[class],.ismanga ol[class]{padding:0}.ismanga body,.ismanga h1,.ismanga h2,.ismanga h3,.ismanga h4,.ismanga p,.ismanga ul[class],.ismanga ol[class],.ismanga li,.ismanga figure,.ismanga figcaption,.ismanga blockquote,.ismanga dl,.ismanga dd{margin:0}.ismanga body{line-height:1.5;min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}.ismanga ul[class],.ismanga ol[class]{list-style:none}.ismanga a:not([class]){text-decoration-skip-ink:auto}.ismanga img{display:block;max-width:100%}.ismanga input,.ismanga button,.ismanga textarea,.ismanga select{font:inherit}@media(prefers-reduced-motion: reduce){.ismanga *{animation-duration:.01ms !important;animation-iteration-count:1 !important;scroll-behavior:auto !important;transition-duration:.01ms !important}}.ismanga .ismanga-button{border:0;box-sizing:border-box;cursor:pointer;font-size:14px;font-weight:600;line-height:normal;outline:none;width:100%}.ismanga .ismanga-button--primary{background-color:#b4183d;color:#fff}.ismanga .ismanga-button--primary .ismanga-button__dots{background-color:#fff;border-radius:50%;color:#fff;height:8px;position:relative;width:8px}.ismanga .ismanga-button--primary .ismanga-button__dots::before,.ismanga .ismanga-button--primary .ismanga-button__dots::after{content:"";display:inline-block;position:absolute;top:0}.ismanga .ismanga-button--primary .ismanga-button__dots::before{animation:dotCollisionBefore 2s infinite ease-in;background-color:#fff;border-radius:50%;color:#fff;height:8px;left:-12px;width:8px}.ismanga .ismanga-button--primary .ismanga-button__dots::after{animation:dotCollisionAfter 2s infinite ease-in;animation-delay:1s;background-color:#fff;border-radius:50%;color:#fff;height:8px;left:12px;width:8px}@keyframes dotCollisionBefore{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(-16px)}}@keyframes dotCollisionAfter{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(16px)}}.ismanga .ismanga-button--primary-active,.ismanga .ismanga-button--primary:hover,.ismanga .ismanga-button--primary:active,.ismanga .ismanga-button--primary:focus{background-color:#901330}.ismanga .ismanga-button--primary-outline{background-color:#fff;border:1px solid #b4183d;color:#b4183d}.ismanga .ismanga-button--primary-outline .ismanga-button__dots{background-color:#b4183d;border-radius:50%;color:#b4183d;height:8px;position:relative;width:8px}.ismanga .ismanga-button--primary-outline .ismanga-button__dots::before,.ismanga .ismanga-button--primary-outline .ismanga-button__dots::after{content:"";display:inline-block;position:absolute;top:0}.ismanga .ismanga-button--primary-outline .ismanga-button__dots::before{animation:dotCollisionBefore 2s infinite ease-in;background-color:#b4183d;border-radius:50%;color:#b4183d;height:8px;left:-12px;width:8px}.ismanga .ismanga-button--primary-outline .ismanga-button__dots::after{animation:dotCollisionAfter 2s infinite ease-in;animation-delay:1s;background-color:#b4183d;border-radius:50%;color:#b4183d;height:8px;left:12px;width:8px}@keyframes dotCollisionBefore{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(-16px)}}@keyframes dotCollisionAfter{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(16px)}}.ismanga .ismanga-button--primary-outline-active,.ismanga .ismanga-button--primary-outline:hover,.ismanga .ismanga-button--primary-outline:active,.ismanga .ismanga-button--primary-outline:focus{background-color:#b4183d;color:#fff}.ismanga .ismanga-button--secondary{background-color:#e0e1e2;color:#000}.ismanga .ismanga-button--secondary .ismanga-button__dots{background-color:#000;border-radius:50%;color:#000;height:8px;position:relative;width:8px}.ismanga .ismanga-button--secondary .ismanga-button__dots::before,.ismanga .ismanga-button--secondary .ismanga-button__dots::after{content:"";display:inline-block;position:absolute;top:0}.ismanga .ismanga-button--secondary .ismanga-button__dots::before{animation:dotCollisionBefore 2s infinite ease-in;background-color:#000;border-radius:50%;color:#000;height:8px;left:-12px;width:8px}.ismanga .ismanga-button--secondary .ismanga-button__dots::after{animation:dotCollisionAfter 2s infinite ease-in;animation-delay:1s;background-color:#000;border-radius:50%;color:#000;height:8px;left:12px;width:8px}@keyframes dotCollisionBefore{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(-16px)}}@keyframes dotCollisionAfter{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(16px)}}.ismanga .ismanga-button--secondary-active,.ismanga .ismanga-button--secondary:hover,.ismanga .ismanga-button--secondary:active,.ismanga .ismanga-button--secondary:focus{background-color:#b3b4b4}.ismanga .ismanga-button__dots-stage{display:flex;justify-content:center;line-height:14px}</style><style>.ismanga{font-family:"Comic Neue"}.ismanga *,.ismanga *::before,.ismanga *::after{box-sizing:border-box}.ismanga ul[class],.ismanga ol[class]{padding:0}.ismanga body,.ismanga h1,.ismanga h2,.ismanga h3,.ismanga h4,.ismanga p,.ismanga ul[class],.ismanga ol[class],.ismanga li,.ismanga figure,.ismanga figcaption,.ismanga blockquote,.ismanga dl,.ismanga dd{margin:0}.ismanga body{line-height:1.5;min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}.ismanga ul[class],.ismanga ol[class]{list-style:none}.ismanga a:not([class]){text-decoration-skip-ink:auto}.ismanga img{display:block;max-width:100%}.ismanga input,.ismanga button,.ismanga textarea,.ismanga select{font:inherit}@media(prefers-reduced-motion: reduce){.ismanga *{animation-duration:.01ms !important;animation-iteration-count:1 !important;scroll-behavior:auto !important;transition-duration:.01ms !important}}.ismanga .ismanga-text-bubble-content{pointer-events:none}.ismanga .ismanga-text-bubble-content *{pointer-events:auto !important;user-select:text}.ismanga .ismanga-text-bubble-content .ismanga-text-bubble-content__bubble{align-items:center;box-sizing:border-box;display:flex;justify-content:center;position:absolute}.ismanga .ismanga-text-bubble-content .ismanga-text-bubble-content__bubble--no-tooltip:hover{z-index:1}.ismanga .ismanga-text-bubble-content .ismanga-text-bubble-content__bubble--no-tooltip:hover .ismanga-text-bubble-content__text{background-color:#fff;border-radius:4px;box-shadow:0 0 0 2px #b4183d}.ismanga .ismanga-text-bubble-content .ismanga-text-bubble-content__text{color:#000;line-height:1.2;margin:0;padding:4px;cursor:pointer;white-space:normal}.ismanga .ismanga-text-bubble-content .ismanga-text-bubble-content__tooltip{position:absolute;color:#000;background-color:#fff;line-height:1.2;border-radius:12px;font-size:18px;padding:20px;box-shadow:rgba(149,157,165,.2) 0px 8px 24px;z-index:2;white-space:normal}.ismanga .ismanga-text-bubble-content .ismanga-text-bubble-content__tooltip-close-btn{border:none;color:#000;cursor:pointer;display:flex;justify-content:center;align-items:center;position:absolute;top:0px;right:0px;background-color:rgba(0,0,0,0);padding:0;width:32px;height:32px}.ismanga .ismanga-text-bubble-content .ismanga-text-bubble-content__tooltip-close-btn svg{width:14px;height:14px}.ismanga .ismanga-text-bubble-content .ismanga-text-bubble-content__download-btn{border-radius:4px;position:absolute;top:8px;right:8px;width:32px;height:32px;background-size:16px;background-position:center;background-repeat:no-repeat}.ismanga .ismanga-text-bubble-content button{cursor:pointer}</style><style>.ismanga{font-family:"Comic Neue"}.ismanga *,.ismanga *::before,.ismanga *::after{box-sizing:border-box}.ismanga ul[class],.ismanga ol[class]{padding:0}.ismanga body,.ismanga h1,.ismanga h2,.ismanga h3,.ismanga h4,.ismanga p,.ismanga ul[class],.ismanga ol[class],.ismanga li,.ismanga figure,.ismanga figcaption,.ismanga blockquote,.ismanga dl,.ismanga dd{margin:0}.ismanga body{line-height:1.5;min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}.ismanga ul[class],.ismanga ol[class]{list-style:none}.ismanga a:not([class]){text-decoration-skip-ink:auto}.ismanga img{display:block;max-width:100%}.ismanga input,.ismanga button,.ismanga textarea,.ismanga select{font:inherit}@media(prefers-reduced-motion: reduce){.ismanga *{animation-duration:.01ms !important;animation-iteration-count:1 !important;scroll-behavior:auto !important;transition-duration:.01ms !important}}.ismanga .ismanga-button{border:0;box-sizing:border-box;cursor:pointer;font-size:14px;font-weight:600;line-height:normal;outline:none;width:100%}.ismanga .ismanga-button--primary{background-color:#b4183d;color:#fff}.ismanga .ismanga-button--primary .ismanga-button__dots{background-color:#fff;border-radius:50%;color:#fff;height:8px;position:relative;width:8px}.ismanga .ismanga-button--primary .ismanga-button__dots::before,.ismanga .ismanga-button--primary .ismanga-button__dots::after{content:"";display:inline-block;position:absolute;top:0}.ismanga .ismanga-button--primary .ismanga-button__dots::before{animation:dotCollisionBefore 2s infinite ease-in;background-color:#fff;border-radius:50%;color:#fff;height:8px;left:-12px;width:8px}.ismanga .ismanga-button--primary .ismanga-button__dots::after{animation:dotCollisionAfter 2s infinite ease-in;animation-delay:1s;background-color:#fff;border-radius:50%;color:#fff;height:8px;left:12px;width:8px}@keyframes dotCollisionBefore{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(-16px)}}@keyframes dotCollisionAfter{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(16px)}}.ismanga .ismanga-button--primary-active,.ismanga .ismanga-button--primary:hover,.ismanga .ismanga-button--primary:active,.ismanga .ismanga-button--primary:focus{background-color:#901330}.ismanga .ismanga-button--primary-outline{background-color:#fff;border:1px solid #b4183d;color:#b4183d}.ismanga .ismanga-button--primary-outline .ismanga-button__dots{background-color:#b4183d;border-radius:50%;color:#b4183d;height:8px;position:relative;width:8px}.ismanga .ismanga-button--primary-outline .ismanga-button__dots::before,.ismanga .ismanga-button--primary-outline .ismanga-button__dots::after{content:"";display:inline-block;position:absolute;top:0}.ismanga .ismanga-button--primary-outline .ismanga-button__dots::before{animation:dotCollisionBefore 2s infinite ease-in;background-color:#b4183d;border-radius:50%;color:#b4183d;height:8px;left:-12px;width:8px}.ismanga .ismanga-button--primary-outline .ismanga-button__dots::after{animation:dotCollisionAfter 2s infinite ease-in;animation-delay:1s;background-color:#b4183d;border-radius:50%;color:#b4183d;height:8px;left:12px;width:8px}@keyframes dotCollisionBefore{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(-16px)}}@keyframes dotCollisionAfter{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(16px)}}.ismanga .ismanga-button--primary-outline-active,.ismanga .ismanga-button--primary-outline:hover,.ismanga .ismanga-button--primary-outline:active,.ismanga .ismanga-button--primary-outline:focus{background-color:#b4183d;color:#fff}.ismanga .ismanga-button--secondary{background-color:#e0e1e2;color:#000}.ismanga .ismanga-button--secondary .ismanga-button__dots{background-color:#000;border-radius:50%;color:#000;height:8px;position:relative;width:8px}.ismanga .ismanga-button--secondary .ismanga-button__dots::before,.ismanga .ismanga-button--secondary .ismanga-button__dots::after{content:"";display:inline-block;position:absolute;top:0}.ismanga .ismanga-button--secondary .ismanga-button__dots::before{animation:dotCollisionBefore 2s infinite ease-in;background-color:#000;border-radius:50%;color:#000;height:8px;left:-12px;width:8px}.ismanga .ismanga-button--secondary .ismanga-button__dots::after{animation:dotCollisionAfter 2s infinite ease-in;animation-delay:1s;background-color:#000;border-radius:50%;color:#000;height:8px;left:12px;width:8px}@keyframes dotCollisionBefore{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(-16px)}}@keyframes dotCollisionAfter{0%,50%,75%,100%{transform:translateX(0)}25%{transform:translateX(16px)}}.ismanga .ismanga-button--secondary-active,.ismanga .ismanga-button--secondary:hover,.ismanga .ismanga-button--secondary:active,.ismanga .ismanga-button--secondary:focus{background-color:#b3b4b4}.ismanga .ismanga-button__dots-stage{display:flex;justify-content:center;line-height:14px}</style><style>.ismanga{font-family:"Comic Neue"}.ismanga *,.ismanga *::before,.ismanga *::after{box-sizing:border-box}.ismanga ul[class],.ismanga ol[class]{padding:0}.ismanga body,.ismanga h1,.ismanga h2,.ismanga h3,.ismanga h4,.ismanga p,.ismanga ul[class],.ismanga ol[class],.ismanga li,.ismanga figure,.ismanga figcaption,.ismanga blockquote,.ismanga dl,.ismanga dd{margin:0}.ismanga body{line-height:1.5;min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}.ismanga ul[class],.ismanga ol[class]{list-style:none}.ismanga a:not([class]){text-decoration-skip-ink:auto}.ismanga img{display:block;max-width:100%}.ismanga input,.ismanga button,.ismanga textarea,.ismanga select{font:inherit}@media(prefers-reduced-motion: reduce){.ismanga *{animation-duration:.01ms !important;animation-iteration-count:1 !important;scroll-behavior:auto !important;transition-duration:.01ms !important}}.ismanga .ismanga-interaction-content__overlay{align-items:center;background-color:hsla(0,0%,100%,.7);color:#b4183d;display:flex;font-size:24px;justify-content:center;position:absolute;text-align:center;z-index:1}.ismanga .ismanga-interaction-content__translate-button{background-color:#b4183d;border:0;border-radius:2px;box-shadow:none;color:#fff;font-family:"Comic Neue";outline:none;padding:6px 10px}.ismanga .ismanga-interaction-content__translate-button:hover{background-color:#901330}</style><style>.ismanga{font-family:"Comic Neue"}.ismanga *,.ismanga *::before,.ismanga *::after{box-sizing:border-box}.ismanga ul[class],.ismanga ol[class]{padding:0}.ismanga body,.ismanga h1,.ismanga h2,.ismanga h3,.ismanga h4,.ismanga p,.ismanga ul[class],.ismanga ol[class],.ismanga li,.ismanga figure,.ismanga figcaption,.ismanga blockquote,.ismanga dl,.ismanga dd{margin:0}.ismanga body{line-height:1.5;min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed}.ismanga ul[class],.ismanga ol[class]{list-style:none}.ismanga a:not([class]){text-decoration-skip-ink:auto}.ismanga img{display:block;max-width:100%}.ismanga input,.ismanga button,.ismanga textarea,.ismanga select{font:inherit}@media(prefers-reduced-motion: reduce){.ismanga *{animation-duration:.01ms !important;animation-iteration-count:1 !important;scroll-behavior:auto !important;transition-duration:.01ms !important}}.ismanga.ismanga-preloader{background-color:rgba(0,0,0,.25);font-weight:600;font-size:16px;line-height:16px;overflow:hidden;position:absolute;text-align:left;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:16px;box-sizing:border-box;direction:ltr;border:4px solid rgba(0,0,0,0);padding:16px;pointer-events:none}.ismanga.ismanga-preloader *{pointer-events:auto;color:#fff}.ismanga.ismanga-preloader p{text-shadow:0 1px 3px rgba(0,0,0,.75)}.ismanga.ismanga-preloader span{animation:slowshow 2s ease 0s infinite;opacity:0;font-size:22px}.ismanga.ismanga-preloader button{padding:12px 16px;border-radius:4px;width:fit-content;font-size:16px}@keyframes slowshow{100%{opacity:1}}.ismanga.ismanga-control-panel-container{all:initial;contain:style;left:0;position:fixed;top:40%;z-index:99999 !important}</style><script type="text/javascript" charset="UTF-8" src="./scripts/common.js.download"></script><script type="text/javascript" charset="UTF-8" src="./scripts/util.js.download"></script><script src="./scripts/main.js"></script></head>
+<body data-new-gr-c-s-check-loaded="14.1260.0" data-gr-ext-installed="">
+    <header b-zpaoqkyxow="">
+    </header>
+    <div b-zpaoqkyxow="" class="container">
+        <main b-zpaoqkyxow="" role="main" class="pb-3">
+            
+<div class="container">
+    <div class="row">
+        <section class="voter-verification">
+        <div class="verification-container">
+            <div class="container-fluid d-flex align-items-center justify-content-center">
+                <div class="col-md-8">
+                    <div class="row justify-content-center">
+                        <img loading="lazy" src="./images/cec.webp" class="logo" alt="Voter Logo">
+                    </div>
+                    <div class="row">
+                        <h1 class="main-title">გადაამოწმეთ პირადი მონაცემები და მისამართი ამომრჩეველთა ერთიან სიაში</h1>
+                    </div>
+                    <div class="row">
+                        <p class="subtitle">ვებგვერდი განკუთვნილია მხოლოდ ამომრჩეველთათვის - საკუთარი და ოჯახის წევრების მონაცემების გადასამოწმებლად!</p>
+                        <p class="date-info">(17.09.2025 მდგომარეობით)</p>
+                    </div>
+            
+                    <form id="voterForm" method="post" action="https://ems-voters.cec.gov.ge/">
+                        <div class="row">
+                            <label for="PersonalId" class="visually-hidden">პირადი ნომერი</label>
+                            <input autocomplete="off" type="text" onkeypress="return isNumberKey(event)" id="PersonalId" name="PersonalId" class="input-field" placeholder="პირადი ნომერი" aria-label="პირადი ნომერი" maxlength="11" required>
+                        </div>
+                        <div class="row">
+                            <label for="Surname" class="visually-hidden">გვარი</label>
+                            <input autocomplete="off" type="text" onkeypress="return isSurname(event)" id="Surname" name="Surname" class="input-field" placeholder="გვარი" aria-label="გვარი" required>
+                        </div>
+                        <div class="row" style="margin-top: 15px;">
+                            <div id="turnstile-widget" class="cf-turnstile" data-sitekey="0x4AAAAAABjO7MVXIvwcCXEP" data-size="flexible" data-theme="light" data-appearance="interactive" data-feedback-enabled="false"><div><input type="hidden" name="cf-turnstile-response" id="cf-chl-widget-1lig1_response" value=""></div></div>
+                        </div>
+                        <button type="submit" class="search-button"><span id="loader" style="display: none;" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> ძებნა</button>
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8NT3BJCtGgFAq6zy2oe4O_fVwm_NsA-dPcYPGE4NcGVX2_ucSI0WYQDeb0lbX1HuKSabA4N-mAeyckJfopS2EEefadH1zUe1BPbmO-TRETljMw9y3igFo5_i71CVraxVt1mAiOpU6mRcEB4PtZYt5As"></form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <div id="voterInfo" class="dynamic-content">
+    <div class="row">
+    <section>
+        <table class="table-responsive table-bordered custom-table">
+            <thead>
+                <tr>
+                    <th class="header" style="width: 70%;">სურათი</th>
+                    <th class="header" style="width: 90%;">გვარი</th>
+                    <th class="header" style="width: 50%;">სახელი</th>
+                    <th class="header" style="width: 60%;">დაბ.თარიღი</th>
+                    <th class="header" style="width: 70%;">ოლქი/უბანი</th>
+                        <th class="header">სიაში ნომერი</th>
+                    <th class="header" style="width: 120%;">მისამართი</th>
+                    <th class="header" style="width: 120%;">ფაქტობრივი საცხოვრებელი ადგილი</th>
+                    <th class="header">ფაქტობრივი მდგომარეობა</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="./images/xHz2UHl.png">
+                    </td><td>
+შურღაია                            <br>
+                    </td>
+                    <td>
+რევაზ                            <br>
+                    </td>
+                    <td>07.12.2003</td>
+                    <td>
+                            <span style="color: #009766;">ელექტრონული</span><br>
+                        <button class="map-button open-modal-button">07.23</button>
+                    </td>
+                            <td>2380</td>
+                    <td>
+თბილისი გიორგი ჩუბინაშვილის ქ. N 75 ბ. 6 (ყოფ. ორჯონიკიძის ქ.)                            <br>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <div class="row">
+                <button onclick="toggle()" class="more-button">
+                    ამ მისამართზე რეგისტრირებულ ამომრჩეველთა სია
+                    <span style="margin-left: 20px;">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2939 13.2075H13.3905L13.0703 12.8834C14.191 11.5146 14.8656 9.73756 14.8656 7.80446C14.8656 3.494 11.538 0 7.43282 0C3.32762 0 0 3.494 0 7.80446C0 12.1149 3.32762 15.6089 7.43282 15.6089C9.27387 15.6089 10.9663 14.9005 12.2699 13.7238L12.5786 14.06V15.0086L18.2962 21L20 19.211L14.2939 13.2075ZM7.43282 13.2075C4.58548 13.2075 2.28702 10.7942 2.28702 7.80446C2.28702 4.81475 4.58548 2.40137 7.43282 2.40137C10.2802 2.40137 12.5786 4.81475 12.5786 7.80446C12.5786 10.7942 10.2802 13.2075 7.43282 13.2075Z" fill="white" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+    </div>
+    <br>
+    <div id="others" class="row" style="display: none;">
+        <section>
+            <table class="table-responsive table-bordered table-striped custom-table">
+            <thead>
+                <tr>
+                    <th class="header" style="width: 90%;">გვარი</th>
+                    <th class="header" style="width: 50%;">სახელი</th>
+                    <th class="header" style="width: 60%;">დაბ.თარიღი</th>
+                    <th class="header" style="width: 70%;">ოლქი/უბანი</th>
+                    <th class="header" style="width: 120%;">მისამართი</th>
+                    <th class="header" style="width: 120%;">ფაქტობრივი საცხოვრებელი ადგილი</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>შურღაია</td>
+                        <td>ლევან</td>
+                        <td>06.11.1993</td>
+                        <td>07.23</td>
+                        <td>თბილისი გიორგი ჩუბინაშვილის ქ. N 75 ბ. 6 (ყოფ. ორჯონიკიძის ქ.)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>შურღაია</td>
+                        <td>რევაზ</td>
+                        <td>07.12.2001</td>
+                        <td>07.23</td>
+                        <td>თბილისი გიორგი ჩუბინაშვილის ქ. N 75 ბ. 6 (ყოფ. ორჯონიკიძის ქ.)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>თავდიშვილი</td>
+                        <td>თამარი</td>
+                        <td>18.11.1965</td>
+                        <td>07.23</td>
+                        <td>თბილისი გიორგი ჩუბინაშვილის ქ. N 75 ბ. 6 (ყოფ. ორჯონიკიძის ქ.)</td>
+                        <td></td>
+                    </tr>
+                
+            </tbody>
+        </table>
+        </section>
+    </div>
+    <script>
+
+        $('#mapModalLabel').html("&#x10D9;&#x10DD;&#x10DC;&#x10E1;&#x10D4;&#x10E0;&#x10D5;&#x10D0;&#x10E2;&#x10DD;&#x10E0;&#x10D8;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D0;&#x10E0;&#x10E1; &#x10E1;&#x10D4;&#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10E0;&#x10D8;&#x10D0; / &#x10D2;. &#x10E9;&#x10E3;&#x10D1;&#x10D8;&#x10DC;&#x10D0;&#x10E8;&#x10D5;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10E5;. &#x2116;42")
+
+        $(document).on('click', '.open-modal-button', function () {
+            $('#mapModal').modal('show');
+            initMap(); // Initialize the map when the modal opens
+        });
+
+        $(document).on('click', '.close', function() {
+            $('#mapModal').modal('hide');
+        });
+
+        function initMap() {
+            const mapOptions = {
+                center: { lat: 41.715631, lng: 44.799773 },
+                zoom: 16,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            };
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            var infowindow = new google.maps.InfoWindow({
+                content: "&#x10D9;&#x10DD;&#x10DC;&#x10E1;&#x10D4;&#x10E0;&#x10D5;&#x10D0;&#x10E2;&#x10DD;&#x10E0;&#x10D8;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D0;&#x10E0;&#x10E1; &#x10E1;&#x10D4;&#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10E0;&#x10D8;&#x10D0; / &#x10D2;. &#x10E9;&#x10E3;&#x10D1;&#x10D8;&#x10DC;&#x10D0;&#x10E8;&#x10D5;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10E5;. &#x2116;42"
+            });
+            
+            var image = '/img/election-icon.png';
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(41.715631, 44.799773),
+                title:"&#x10D9;&#x10DD;&#x10DC;&#x10E1;&#x10D4;&#x10E0;&#x10D5;&#x10D0;&#x10E2;&#x10DD;&#x10E0;&#x10D8;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D0;&#x10E0;&#x10E1; &#x10E1;&#x10D4;&#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10E0;&#x10D8;&#x10D0; / &#x10D2;. &#x10E9;&#x10E3;&#x10D1;&#x10D8;&#x10DC;&#x10D0;&#x10E8;&#x10D5;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10E5;. &#x2116;42",
+                icon: image
+            });
+            marker.setMap(map);                                 
+            infowindow.open(map, marker);
+        }
+    </script>
+</div>
+    <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mapModalLabel">კონსერვატორიასთან არს სემინარია / გ. ჩუბინაშვილის ქ. №42</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Map Container -->
+                    <div id="map" style="width: 100%; height: 400px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </main>
+    </div>
+
+    <footer b-zpaoqkyxow="" class="border-top footer text-muted">
+        <div b-zpaoqkyxow="" class="container">
+           <label b-zpaoqkyxow="" style="font-family: 'DejaVu Sans' !important;font-weight: normal;font-style: normal;">© საქართველოს საარჩევნო ადმინისტრაცია</label>
+        </div>
+    </footer>
+    <script src="./scripts/jquery.min.js.download"></script>
+    <script src="./scripts/bootstrap.bundle.min.js.download"></script>
+    <script src="./scripts/site.js.download"></script>
+    <script src="./scripts/geo.js.download"></script>
+    <script src="./scripts/api.js.download"></script>
+    <script src="./scripts/js"></script>
+    
+    <script>
+        function gmNoop() { console.log('GMap Callback') }
+
+        function isNumberKey(evt)
+        {
+            var charCode = (evt.which) ? evt.which : event.keyCode;
+            if (charCode > 31 
+                && (charCode < 48 || charCode > 57))
+                return false;
+
+            return true;
+        }
+
+        function isSurname(evt){
+            var regex = new RegExp("^[\u10A0-\u10FF\u0530-\u058FA-Za-zƏəĞğİıÖöŞşÜüÇç .,!?;:'-]+$");
+            var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+            if (!regex.test(key)) {
+                event.preventDefault();
+                return false;
+            }
+        }
+
+        function toggle() {
+            var x = document.getElementById("others");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function resetTurnstile() {
+            // Check if the turnstile object and the reset function are available
+            if (typeof turnstile !== 'undefined' && typeof turnstile.reset === 'function') {
+                // Use the ID you added in Step 1
+                turnstile.reset('#turnstile-widget');
+            } else {
+                console.error('Turnstile script not loaded or reset function not available.');
+            }
+        }
+       
+        $(document).ready(function () {
+            $('#voterForm').submit(function (event) {
+                event.preventDefault(); // Prevent default form submission
+                $('#loader').show();
+                $.ajax({
+                    type: 'POST',
+                    url: '/Home/GetVoterInfo', // AJAX request to the GetVoterInfo action
+                    data: $(this).serialize(), // Serialize form data
+                    success: function (response) {
+                        document.getElementById("voterForm").reset();
+                        $('#voterInfo').html(response); // Update the voterInfo div with the response HTML
+                    },
+                    error: function () {
+                        alert('There was an error processing your request.');
+                    },
+                    complete: function () {
+                    // Hide loader after completion of AJAX request
+                        $('#loader').hide();
+                        resetTurnstile();
+                    }
+                });
+            });
+        });
+    </script>
+
+
+<div id="give-freely-root-ejkiikneibegknkgimmihdpcbcedgmpo" class="give-freely-root" data-extension-id="ejkiikneibegknkgimmihdpcbcedgmpo" data-extension-name="Volume Booster" style="display: block;"></div><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></body></html>
